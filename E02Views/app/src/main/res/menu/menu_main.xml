@@ -14,4 +14,7 @@
         android:id="@+id/action_buttons"
         android:title="@string/action_buttons"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_checkboxes"
+        android:title="@string/action_checkboxes" />
 </menu>
