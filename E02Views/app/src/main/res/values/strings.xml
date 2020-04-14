@@ -14,4 +14,6 @@
     <string name="input_title">제목을 입력하세요.</string>
     <string name="input_content">내용을 입력하세요.</string>
     <string name="save">저장</string>
+    <string name="refresh">새로고침</string>
+    <string name="action_buttons">버튼</string>
 </resources>

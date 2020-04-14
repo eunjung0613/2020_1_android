@@ -5,9 +5,13 @@
     <item
         android:id="@+id/action_singUp"
         android:title="@string/action_singUp"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_memo"
         android:title="@string/action_memo"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_buttons"
+        android:title="@string/action_buttons"
+        app:showAsAction="never" />
 </menu>
