@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">E02Views</string>
+    <string name="action_singUp">회원가입</string>
+    <string name="action_memo">메모장</string>
+    <string name="loginid">로그인 아이디</string>
+    <string name="input_loginid">로그인 아이디를 입력하세요.</string>
+    <string name="password">비밀번호</string>
+    <string name="input_password">비밀번호를 입력하세요.</string>
+    <string name="password2">비밀번호 확인</string>
+    <string name="input_password2">비밀번호를 한 번 더 입력하세요.</string>
+    <string name="email">이메일</string>
+    <string name="input_email">이메일 주소를 입력하세요</string>
+    <string name="singUp">회원가입</string>
+    <string name="input_title">제목을 입력하세요.</string>
+    <string name="input_content">내용을 입력하세요.</string>
+    <string name="save">저장</string>
+</resources>
