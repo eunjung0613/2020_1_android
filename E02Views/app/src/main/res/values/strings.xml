@@ -24,4 +24,14 @@
     <string name="dog">강아지</string>
     <string name="owl">부엉이</string>
     <string name="action_checkboxes">체크박스</string>
+    <string name="input_phone">전화번호를 입력하세요</string>
+    <string name="input_address">주소를 입력하세요</string>
+    <string name="action_spinners">Spinners</string>
+    <string-array name="phoneTypes">
+        <item>집전화</item>
+        <item>사무실전화</item>
+        <item>휴대폰</item>
+        <item>기타</item>
+    </string-array>
+
 </resources>
