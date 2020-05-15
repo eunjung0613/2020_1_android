@@ -30,13 +30,13 @@ public class Exam3Adapter extends RecyclerView.Adapter<Exam3Adapter.ViewHolder> 
     }
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
         View view = layoutInflater.inflate(R.layout.item1, viewGroup, false);
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int index) {
         viewHolder.textView.setText(arrayList.get(index));
     }
 
