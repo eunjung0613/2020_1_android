@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">E04Firebase</string>
+    <string name="saveIntoServer">서버에 저장</string>
+</resources>
