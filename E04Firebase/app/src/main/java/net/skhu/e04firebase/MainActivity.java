@@ -16,19 +16,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void button_clicked(View view) {
-        Class classObj = null;
+        Class classobj = null;
         switch (view.getId()) {
             case R.id.button1:
-                classObj = Firebase1Activity.class;
+                classobj = Firebase1Activity.class;
                 break;
             case R.id.button2:
-                classObj = MemoList1Activity.class;
+                classobj = MemoList1Activity.class;
                 break;
             case R.id.button3:
-                classObj = MemoList2Activity.class;
+                classobj = MemoList2Activity.class;
                 break;
         }
-        Intent intent = new Intent(this, classObj);
+        Intent intent = new Intent(this,classobj);
         startActivity(intent);
     }
 }
+

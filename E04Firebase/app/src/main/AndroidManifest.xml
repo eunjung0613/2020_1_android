@@ -12,9 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MemoList2Activity"></activity>
-        <activity android:name=".MemoEditActivity" />
         <activity android:name=".MemoList1Activity" />
-        <activity android:name=".MemoListActivity" />
+        <activity android:name=".MemoEditActivity" />
         <activity android:name=".Firebase1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>

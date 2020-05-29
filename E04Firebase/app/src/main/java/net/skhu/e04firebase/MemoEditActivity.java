@@ -16,7 +16,6 @@ public class MemoEditActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memo_edit);
-
         final EditText editText_title = (EditText) findViewById(R.id.editText_title);
         final EditText editText_content = (EditText) findViewById(R.id.editText_content);
         Memo memo = (Memo)getIntent().getSerializableExtra("MEMO");
@@ -24,7 +23,6 @@ public class MemoEditActivity extends AppCompatActivity {
             editText_title.setText(memo.getTitle());
             editText_content.setText(memo.getBody());
         }
-
         Button button = (Button) findViewById(R.id.btnSave);
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
@@ -34,13 +32,11 @@ public class MemoEditActivity extends AppCompatActivity {
                     editText_title.setError("제목을 입력하세요");
                     return;
                 }
-
                 String body = editText_content.getText().toString();
                 if (isEmptyOrWhiteSpace(body)) {
                     editText_content.setError("내용을 입력하세요");
                     return;
                 }
-
                 Memo memo = new Memo(title, body, new Date());
                 Intent intent = new Intent();
                 intent.putExtra("MEMO", memo);
@@ -50,7 +46,6 @@ public class MemoEditActivity extends AppCompatActivity {
         };
         button.setOnClickListener(listener);
     }
-
     static boolean isEmptyOrWhiteSpace(String s) {
         if (s == null) return true;
         return s.toString().trim().length() == 0;

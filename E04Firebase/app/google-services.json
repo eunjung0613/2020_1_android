@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "121016812738",
-    "firebase_url": "https://practice-1ee14.firebaseio.com",
-    "project_id": "practice-1ee14",
-    "storage_bucket": "practice-1ee14.appspot.com"
+    "project_number": "234191481277",
+    "firebase_url": "https://skhu-practice.firebaseio.com",
+    "project_id": "skhu-practice",
+    "storage_bucket": "skhu-practice.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:121016812738:android:10e8b447490fa861e4675b",
+        "mobilesdk_app_id": "1:234191481277:android:6f012ca39de4b68156cad4",
         "android_client_info": {
           "package_name": "net.skhu.e04firebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "121016812738-bhkum8c0urmhag67ahn93o8jf8gast7k.apps.googleusercontent.com",
+          "client_id": "234191481277-dvspd66895rgnmgeni0oauvhtl2bpmii.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDwaodM_FEuP_2bGM9JSHenIjYnKRS_G3A"
+          "current_key": "AIzaSyBiC9cCVAknOHW4bpdyWPSBbzwejix_Hrs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "121016812738-bhkum8c0urmhag67ahn93o8jf8gast7k.apps.googleusercontent.com",
+              "client_id": "234191481277-dvspd66895rgnmgeni0oauvhtl2bpmii.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
