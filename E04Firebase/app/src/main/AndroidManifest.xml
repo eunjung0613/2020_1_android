@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MemoList2Activity"></activity>
+        <activity android:name=".MemoList3Activity"></activity>
+        <activity android:name=".MemoList2Activity" />
         <activity android:name=".MemoList1Activity" />
         <activity android:name=".MemoEditActivity" />
         <activity android:name=".Firebase1Activity" />

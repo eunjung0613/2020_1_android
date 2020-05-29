@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.button3:
                 classobj = MemoList2Activity.class;
                 break;
+            case R.id.button4:
+                classobj = MemoList3Activity.class;
+                break;
         }
         Intent intent = new Intent(this,classobj);
         startActivity(intent);
