@@ -11,6 +11,9 @@ import android.widget.TextView;
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -126,7 +129,10 @@ public class MemoRecyclerView3Adapter extends RecyclerView.Adapter<MemoRecyclerV
         this.layoutInflater = LayoutInflater.from(context);
         this.onMemoClickListener = onMemoClickListener;
         this.onCheckCountChangeListener = onCheckCountChangeListener;
-        this.myData03 = FirebaseDatabase.getInstance().getReference("myData03");
+
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser(); // 현재 사용자
+        String path = "/users/" + currentUser.getUid() + "/myData03";
+        this.myData03 = FirebaseDatabase.getInstance().getReference(path);
         this.myData03.addChildEventListener(firebaseListener);
         ((AppCompatActivity)context).getOnBackPressedDispatcher().addCallback(backPressedCallback);
     }

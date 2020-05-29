@@ -10,4 +10,6 @@
     <string name="input_content">내용을 입력하세요.</string>
     <string name="save">저장</string>
     <string name="action_create">생성</string>
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
 </resources>
