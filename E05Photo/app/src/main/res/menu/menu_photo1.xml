@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_pick_from_gallery"
+        android:icon="@drawable/ic_photo_white_24dp"
+        android:title="@string/pick_from_gallery"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_take_photo"
+        android:icon="@drawable/ic_photo_camera_white_24dp"
+        android:title="@string/take_photo"
+        app:showAsAction="ifRoom" />
+</menu>
